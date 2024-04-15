@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Shell
+<FlyoutPage
     x:Class="FlyoutBug.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:FlyoutBug"
-    Shell.FlyoutBehavior="Disabled"
-    Title="FlyoutBug">
+    Title="FlyoutBug" FlyoutLayoutBehavior="Popover">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <FlyoutPage.Detail>
+        <ContentPage>
+            <Label Text="This is the detail page." VerticalOptions="Center" HorizontalOptions="Center" />
+        </ContentPage>
+    </FlyoutPage.Detail>
 
-</Shell>
+    <FlyoutPage.Flyout>
+        <ContentPage Title="Flyout Page">
+            <Label Text="This is the flyout page." VerticalOptions="Center" HorizontalOptions="Center" />
+        </ContentPage>
+    </FlyoutPage.Flyout>
+    
+</FlyoutPage>

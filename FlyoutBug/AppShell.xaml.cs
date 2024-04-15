@@ -1,6 +1,6 @@
 ﻿namespace FlyoutBug;
 
-public partial class AppShell : Shell
+public partial class AppShell : FlyoutPage
 {
     public AppShell()
     {
