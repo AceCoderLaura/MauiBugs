@@ -14,7 +14,7 @@
             Spacing="25">
             <ListView
                 HeightRequest="185"
-                SemanticProperties.Description="dot net bot in a race car number eight"
+                SemanticProperties.Description="list of four distinct animals"
                 IsVisible="{Binding IsVisible}"
                 ItemsSource="{Binding Animals}">
             </ListView>
@@ -22,7 +22,7 @@
             <Button
                 x:Name="CounterBtn"
                 Text="Click me" 
-                SemanticProperties.Hint="Counts the number of times you click"
+                SemanticProperties.Hint="toggles the visibility of the list view"
                 HorizontalOptions="Fill"
                 Command="{Binding ToggleVisibleCommand}"/>
         </VerticalStackLayout>
