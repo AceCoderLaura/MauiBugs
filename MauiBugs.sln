@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyoutBug", "FlyoutBug\Flyo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentViewBug", "ContentViewBug\ContentViewBug.csproj", "{8476C19F-730C-4165-8C5C-CF19A7260250}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsVisibleBug", "IsVisibleBug\IsVisibleBug.csproj", "{0553DD33-EBF1-47E9-A7B3-D38F20376633}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +21,9 @@ Global
 		{8476C19F-730C-4165-8C5C-CF19A7260250}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8476C19F-730C-4165-8C5C-CF19A7260250}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8476C19F-730C-4165-8C5C-CF19A7260250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0553DD33-EBF1-47E9-A7B3-D38F20376633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0553DD33-EBF1-47E9-A7B3-D38F20376633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0553DD33-EBF1-47E9-A7B3-D38F20376633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0553DD33-EBF1-47E9-A7B3-D38F20376633}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
