@@ -27,7 +27,7 @@ public class VisibilityToggleViewModel : INotifyPropertyChanged
     }
 
     public ICommand ToggleVisibleCommand { get; }
-    public List<string> StringList { get; } = ["cat", "horse", "dog", "mouse"];
+    public List<string> Animals { get; } = ["cat", "horse", "dog", "mouse"];
 
     protected virtual void OnPropertyChanged([CallerMemberName] string? propertyName = null)
     {

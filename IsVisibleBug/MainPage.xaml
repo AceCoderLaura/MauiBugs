@@ -15,7 +15,8 @@
             <ListView
                 HeightRequest="185"
                 SemanticProperties.Description="dot net bot in a race car number eight"
-                IsVisible="{Binding IsVisible}" ItemsSource="{Binding StringList}">
+                IsVisible="{Binding IsVisible}"
+                ItemsSource="{Binding Animals}">
             </ListView>
 
             <Button
